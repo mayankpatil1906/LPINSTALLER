@@ -1,10 +1,10 @@
 #!/bin/bash
 # ===========================================================
-# LP SYSTEM MANAGER - LIGHTINGPLAYS EDITION (v1.0)
-# LP Virtualization & Node Control
+# MP SYSTEM MANAGER - MAyank EDITION (v1.0)
+# MP Virtualization & Node Control
 # ===========================================================
 
-hostnamectl set-hostname LP-NODE 2>/dev/null
+hostnamectl set-hostname MP-NODE 2>/dev/null
 
 # --- COLORS ---
 B_BLUE='\033[1;38;5;33m'
@@ -86,14 +86,8 @@ echo -e " ${B_BLUE}${NC}${BG_SHADE}${W} HOST: $CURRENT_HOST ${NC}${B_BLUE}
 echo
 
 # --- LP ASCII LOGO ---
-echo -e "${B_CYAN}██╗     ██████╗     ███████╗██╗   ██╗███████╗████████╗███████╗███╗   ███╗${NC}"
-echo -e "${B_CYAN}██║     ██╔══██╗    ██╔════╝╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔════╝████╗ ████║${NC}"
-echo -e "${B_PURPLE}██║     ██████╔╝    ███████╗ ╚████╔╝ ███████╗   ██║   █████╗  ██╔████╔██║${NC}"
-echo -e "${B_PURPLE}██║     ██╔═══╝     ╚════██║  ╚██╔╝  ╚════██║   ██║   ██╔══╝  ██║╚██╔╝██║${NC}"
-echo -e "${GOLD}███████╗██║         ███████║   ██║   ███████║   ██║   ███████╗██║ ╚═╝ ██║${NC}"
-echo -e "${GOLD}╚══════╝╚═╝         ╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝${NC}"
 
-echo -e " ${W}LightingPlays Virtualization Manager${NC}"
+echo -e " ${W}Mayank Virtualization Manager${NC}"
 
 echo -e " ${G}────────────────────────────────────────────────────────────${NC}"
 
