@@ -20,7 +20,7 @@ read -p "Select option: " vps_choice
 case $vps_choice in
 
 1)
-echo "Launching HVM Installer..."
+echo "Launching HVM Installer coming soon"
 bash <(curl -fsSL https://raw.githubusercontent.com/DreamHost2ws/HVM5.1/main/LP-Hvm-Installer.sh)
 ;;
 
