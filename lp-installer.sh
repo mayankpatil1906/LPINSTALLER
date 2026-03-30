@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ==========================================================
-# LP INSTALLER
-# LightingPlays Official Installer
+# Mayank INSTALLER
+# Mayank Official Installer
 # Version: v1.0
 # ==========================================================
 
@@ -22,7 +22,7 @@ NC='\033[0m'
 loading() {
 clear
 echo
-echo -e "${CYAN}Initializing LP Installer...${NC}"
+echo -e "${CYAN}Initializing Mayank Installer...${NC}"
 for i in {1..30}; do
 printf "${GREEN}█${NC}"
 sleep 0.03
@@ -49,17 +49,8 @@ HOST=$(hostname)
 # ----------------------------------------------------------
 logo() {
 
-echo -e "${CYAN}"
-echo "██╗     ██████╗ "
-echo "██║     ██╔══██╗"
-echo "██║     ██████╔╝"
-echo "██║     ██╔═══╝ "
-echo "███████╗██║     "
-echo "╚══════╝╚═╝     "
-echo -e "${NC}"
-
-echo -e "${YELLOW}LP ALL-IN-ONE INSTALLER${NC}"
-echo -e "${GRAY}LightingPlays Deployment Toolkit${NC}"
+echo -e "${YELLOW}Mayank ALL-IN-ONE INSTALLER${NC}"
+echo -e "${GRAY}MAYANK Deployment Toolkit${NC}"
 echo -e "${GRAY}Version v1.0${NC}"
 echo
 }
@@ -79,10 +70,8 @@ echo -e "${WHITE}CPU:${NC} ${GREEN}$CPU%${NC}   ${WHITE}RAM:${NC} ${GREEN}$RAM%$
 echo
 
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "${PURPLE}1.${NC} Panels                ${PURPLE}5.${NC} Server Utilities"
-echo -e "${PURPLE}2.${NC} VPS Panels            ${PURPLE}6.${NC} Theme & BluePrints"
-echo -e "${PURPLE}3.${NC} Dashboards            ${PURPLE}7.${NC} VPS Edit LPRO"
-echo -e "${PURPLE}4.${NC} Virtualization"
+echo -e "${PURPLE}1.${NC} Panels                ${PURPLE}2.${NC} Server Utilities"             
+echo -e "${PURPLE}3.${NC} Virtualization"       ${PURPLE}4.${NC} Theme & BluePrints" 
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo
 echo -e "${RED}0.${NC} Exit"
@@ -110,29 +99,18 @@ case $opt in
 bash <(curl -fsSL https://raw.githubusercontent.com/node2ws-glitch/LPINSTALLER/main/panels.sh)
 ;;
 
-2)
-bash <(curl -fsSL https://raw.githubusercontent.com/node2ws-glitch/LPINSTALLER/main/vpspanes.sh)
-;;
-
 3)
-soon
-;;
-
-4)
 bash <(curl -fsSL https://raw.githubusercontent.com/node2ws-glitch/LPINSTALLER/main/vm.sh)
 ;;
 
-5)
+2)
 bash <(curl -fsSL https://raw.githubusercontent.com/DreamHost2ws/ExtremLightingCode/main/panel/pterodactyl/tools/run.sh)
 ;;
 
-6)
+4)
 bash <(curl -fsSL https://raw.githubusercontent.com/DreamHost2ws/ExtremLightingCode/main/panel/pterodactyl/chang/dev.sh)
 ;;
 
-7)
-bash <(curl -fsSL https://raw.githubusercontent.com/DreamHost2ws/ExtremLightingCode/main/vps-edit/run.sh)
-;;
 
 0)
 echo
